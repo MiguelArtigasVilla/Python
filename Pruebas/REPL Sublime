@@ -1,0 +1,102 @@
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Miguel")
+Miguel
+>>> mensaje="""Esto es un mensaje
+... con tres saltos
+... de línea"""
+>>> print( mensaje)
+Esto es un mensaje
+con tres saltos
+de línea
+>>> numero1=5
+>>> numero2=7
+>>> if numero1>numero2:
+... print("El numero 1 es mayor")
+  File "<stdin>", line 2
+    print("El numero 1 es mayor")
+    ^
+IndentationError: expected an indented block
+>>> if numero1>numero2:
+... print("El numero 1 es mayor"):
+  File "<stdin>", line 2
+    print("El numero 1 es mayor"):
+    ^
+IndentationError: expected an indented block
+>>> print("El numero 1 es mayor")
+El numero 1 es mayor
+>>> if numero1>numero2:
+... print("El numero 1 es mayor")else
+  File "<stdin>", line 2
+    print("El numero 1 es mayor")else
+    ^
+IndentationError: expected an indented block
+>>> if numero1>numero2:
+... print("El numero 1 es mayor"):
+  File "<stdin>", line 2
+    print("El numero 1 es mayor"):
+    ^
+IndentationError: expected an indented block
+>>> if numero1>numero2:
+... print("El numero 1 es mayor")
+		else
+  File "<stdin>", line 2
+    print("El numero 1 es mayor")
+    ^
+IndentationError: expected an indented block
+>>>   File "<stdin>", line 1
+    else
+IndentationError: unexpected indent
+>>> if numero1>numero2:
+... print("El numero1 es mayor")
+  File "<stdin>", line 2
+    print("El numero1 es mayor")
+    ^
+IndentationError: expected an indented block
+>>> print("El numero1 es mayor")
+	else
+	print("El numero2 es mayor")
+El numero1 es mayor
+>>>   File "<stdin>", line 1
+    else
+IndentationError: unexpected indent
+>>>   File "<stdin>", line 1
+    print("El numero2 es mayor")
+IndentationError: unexpected indent
+>>> if numero1>numero2:
+... print("El numero1 es mayor")
+	else
+	print("El numero2 es mayor")
+  File "<stdin>", line 2
+    print("El numero1 es mayor")
+    ^
+IndentationError: expected an indented block
+>>>   File "<stdin>", line 1
+    else
+IndentationError: unexpected indent
+>>>   File "<stdin>", line 1
+    print("El numero2 es mayor")
+IndentationError: unexpected indent
+>>> if numero1>numero2:
+... print("El numero1 es mayor")
+	else  File "<stdin>", line 2
+    print("El numero1 es mayor")
+    ^
+IndentationError: expected an indented block
+>>> if numero1>numero2:
+  File "<stdin>", line 1
+    elseif numero1>numero2:
+IndentationError: unexpected indent
+>>> if numero1>numero2:
+... print("El numero1 es mayor")
+  File "<stdin>", line 2
+    print("El numero1 es mayor")
+    ^
+IndentationError: expected an indented block
+>>> if numero1>numero2:
+... 	print("El numero1 es mayor")
+... else:
+... 	print("El numero2 es mayor")
+... 
+El numero2 es mayor
+>>> 
